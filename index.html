@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tahmin Oyunu</title>
+    <link rel="shortcut icon" href="./favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <div >
+
+
+
+    <h1 class="title">Tahmin Oyunu</h1>
+    
+
+    <div class="input-group bg-warning mb-3 w-75 mx-auto">
+        <label class="input-group-text text-danger bg-warning" for="select">Zorluk</label>
+        <select class="form-select" id="select">
+          <option selected disabled>Başlamak için bir zorluk sec...</option>
+          <option value="10">Kolay (0-10)</option>
+          <option value="50">Orta (0-50)</option>
+          <option value="100">Zor (0-100)</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="input-group mb-3 w-75 mx-auto">
+        <label for="" class="input-group-text text-warning bg-danger">Tahmin:</label>
+        <input type="text" id="input" class="form-control" placeholder="Tahminizi yazınız.">
+    </div>
+
+    <div class="wrapper">
+
+    </div>
+
+    <div>
+        <button class="custom-btn" style="color: rgb(253,185,18);">Tahmin et!</button>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
